@@ -1,0 +1,125 @@
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+       #map {
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        touch-action: manipulation;
+      }
+
+      
+      /* Optional: Makes the sample page fill the window. */
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        touch-action: manipulation;
+      }
+      body{
+          display: flex;
+          justify-content: center;
+          box-sizing: border-box;
+      }
+      /* #map-container {
+        width: 100%;
+        height: 100%;
+        position:relative;
+     } */
+      #map-menu {
+        font-family: 'Roboto', sans-serif;
+        position: fixed;
+        z-index: 2;
+        background-color: #F3F3F3;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+        border-radius: 20px;
+        width: 350px;
+        height: 230px;
+        text-align: center;
+        margin-top: 200px;
+        bottom: 60px;
+      }
+      .button{
+        position: absolute;
+        width: 230px;
+        height: 57px;
+        background: linear-gradient(0deg, #2CA731 -11.35%, #13F41C 104.05%);
+        /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15); */
+        border: 0px solid red;
+        border-radius: 29px;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        margin-top: 40px;
+        position: absolute;
+      }
+      .button1{
+        position: absolute;
+        text-decoration: none;
+        width: 230px;
+        height: 57px;
+        background: linear-gradient(0deg, #2CA731 -11.35%, #13F41C 104.05%);
+        /* box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.15); */
+        border: 0px solid red;
+        border-radius: 29px;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        margin-top: 60px;
+        position: absolute;
+        padding: 0;
+        color: white;
+      }
+      .aaa{
+          display: flex;
+          justify-content: space-around;
+      }
+      .previous{
+          width: 27px;
+          height: 17px;
+          margin-top: 12px;
+          margin-left: -10px;
+      }
+      #address_2{
+          color: #9A9A9A;
+          font-size: 8px;
+      }
+      h2{
+        padding-top: 25px;
+        font-weight: bold;
+      }
+      .objects_in_button{
+          display: flex;
+          justify-content: center;
+          padding: 0;
+      }
+      #icon{
+          padding-top: 16px;
+          padding-left: 10px;
+          height: 25px;
+          width: 25px;
+      }
+      #icon1{
+        height: 20px;
+        width: 20px;
+        margin-top: 10px;
+        margin-right: -10px;
+      }
+      #address{
+          color: white;
+          font-family: 'Roboto', sans-serif;
+          margin-top: 2px;
+      }
+      #second{
+          display: none;
+      }
+      .scroll{
+        padding-top:7px;
+        overflow-y: scroll;
+        height: 70px;
+ 
+      }

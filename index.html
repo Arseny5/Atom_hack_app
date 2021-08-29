@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simple Map</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport"
+        content="initial-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=no minimal-ui">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=be65fdb4-43a5-4b51-82e1-8088d947c4f3&lang=ru_RU"
+        type="text/javascript"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.4.2.min.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+
+
+    <div id="map"></div>
+    <div id="map-menu">
+
+        <div id="first">
+            <div id="text">
+                <h2>Где бы Вы открыли <br> свой бизнес?</h2>
+            </div>
+            <button class="button" onClick="Click()">
+                <div class="objects_in_button">
+                    <img id="icon" src="https://pngicon.ru/file/uploads/geometka.png" alt="">
+                    <p id="address"></p>
+                </div>
+            </button>
+        </div>
+
+        <form id="second">
+            <div class="aaa">
+                <img id="icon1" src="https://pngicon.ru/file/uploads/geometka.png" alt="">
+                <p  id="address_2"></p>
+                <button class="previous" onClick="Click1()"></button>
+            </div>
+            <div class="scroll">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio quia explicabo eum recusandae. Quas ipsam sint maiores minus rem consequuntur rerum placeat cumque perferendis inventore! Sunt perferendis id nam voluptates!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quod iste obcaecati neque illum sit ex veritatis magni blanditiis repellendus, vel quo expedita maxime, ut earum! Suscipit commodi eos fuga.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum assumenda vero sed eligendi nisi dignissimos voluptatum aperiam perferendis, nobis enim ullam fuga soluta saepe a quidem ut provident quas ab.</p>
+            </div>
+
+            <a href="https://webref.ru/example/page/new.html?" class="button1"><p>Узнать больше</p></a>
+        
+                <!-- <button action="https://webref.ru/example/page/new.html?" class="button" >
+                    <p>Узнать больше</p>
+                </button> -->
+            
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
